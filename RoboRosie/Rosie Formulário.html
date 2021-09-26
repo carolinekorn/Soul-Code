@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosie Formulário</title>
+</head>
+
+<body>
+    <header>
+        <!--Cabeçalho do site com logo e descrição-->
+        <figure>
+            <img src="Imagens/horizontal_on_white_by_logaster (1).png" alt="LOGO">
+        </figure>
+        <h2>
+            <p>Soluções de Limpezas Domésticas</p>
+        </h2>
+    </header>
+    <!--formulário para cadastro no site-->
+    <form>
+        <fieldset>
+            <legend>
+                <h3>INFORMAÇÕES</h3>
+            </legend>
+            <br>
+            <label for="nome">
+                Nome:
+            </label>
+            <input type="text" id="nome">
+            </p>
+            <br>
+            <label for="e-mail">
+                E-mail:
+            </label>
+            <input type="email" id="email">
+            </p>
+            <br>
+            <label for="senha">
+                Senha:
+            </label>
+            <input type="password" id="senha">
+            </p>
+            <br>
+            <p>
+                <label for="dataNascimento">
+                    Data de Nascimento:
+                </label>
+                <input type="date" id="dataNascimento">
+            </p>
+            <br>
+            <label for="estadoCivil">Estado Civil:</label>
+            <select id="estadoCivil" name="estado">
+                <option>Selecione</option>
+                <option value="Casado">Casado</option>
+                <option value="Solteiro">Solteiro</option>
+                <option value="União Estável">União Estável</option>
+                <option value="Viúvo">Viúvos</option>
+                <option value="Divorciado">Divorciado</option>
+            </select>
+            <br>
+            <br>
+            <BR>
+            <fieldset>
+                <legend>O QUE VOCÊ ESTÁ PROCURANDO:</legend>
+                <p>
+                    <!--opções de objetos para compra-->
+                    <label form="tipoSolução">Tipo de Solução:</label>
+                    <br>
+                    <input type="checkbox" name="tipoSolucao">Aspirador de Pó Vertical
+                    <input type="checkbox" name="tipoSolucao">Aspirador de Pó e Água
+                    <input type="checkbox" name="tipoSolucao">Robô Aspirador
+                    <input type="checkbox" name="tipoSolucao">Vassoura Eletrica
+                    <input type="checkbox" name="tipoSolucao">Enceradeira
+                    <br>
+                    <br>
+                    <!--opções de voltagem dos equipamentos-->
+                    <label form="voltagem">Voltagem:</label>
+                    <br>
+                    <input type="radio" id="110V" name="voltagem">110V
+                    <input type="radio" id="220V" name="voltagem">220V
+                </p>
+            </fieldset>
+            <br>
+        </fieldset>
+        <br>
+        <p>
+            <button type="reset">LIMPAR</button>
+        </p>
+        <p>
+            <button type="submit">ENVIAR</button>
+        </p>
+    </form>
+    <br>
+    <footer>
+        <p>
+        <pre>
+        Sobre Nós
+        Missão
+        Contato: (xx) 9 9999-9999 E-mail:xxxxxxxxxxxx@xxxxxx.com.br
+    </pre>
+        </p>
+    </footer>
+</body>
+
+</html>
